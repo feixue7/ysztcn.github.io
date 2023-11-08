@@ -7,7 +7,7 @@ import requests
 这是一个打印出3中接口的站点名和url的应用
 '''
  
-# 读取带注释 // /* */ 的json文件
+# 读取带注释 // /* */ 的json文件 测试
 def parse_json(filename):
     f = open(filename, 'r', encoding='utf-8')
     lines = []
